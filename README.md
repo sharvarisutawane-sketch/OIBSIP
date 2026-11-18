@@ -1,23 +1,19 @@
-# BMI Calculator — Beginner Tier
+# Random Password Generator — Beginner Tier
 
 ## Objective
-Calculate Body Mass Index (BMI) and display the corresponding category.
+Generate a random password based on the user's selected criteria.
 
 ## Features
-- Takes weight in kilograms and height in metres.
-- Calculates BMI using `BMI = weight / (height * height)`.
-- Displays BMI rounded to two decimal places.
-- Categories: Underweight (<18.5), Normal (18.5–24.9), Overweight (25–29.9), Obese (30+).
-- Handles non-numeric and non-positive inputs.
+- Asks for password length (minimum 8 characters).
+- Offers uppercase, lowercase, numbers and symbols.
+- Requires at least two character types.
+- Ensures at least one character from each selected type.
+- Allows generating another password without restarting.
+- Validates length and character selections.
 
 ## Run on Windows
 1. Install Python 3.
 2. Open Command Prompt in this folder.
 3. Run `py main.py`.
 
-## Sample test
-Weight: `60`
-Height: `1.65`
-Expected BMI: approximately `22.04` — Normal.
-
-This is an educational calculator, not a medical diagnosis.
+Note: This is the Beginner-tier learning task and uses Python's `random` module as specified in the task brief. Do not use this version to generate passwords for important accounts; use a password manager or a cryptographically secure generator instead.
